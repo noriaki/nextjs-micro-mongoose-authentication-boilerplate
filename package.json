@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-micro-mongoose-authentication-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "10.x.x"
+  },
+  "main": "server/index.js",
+  "scripts": {},
+  "repository": "git@github.com:noriaki/nextjs-micro-mongoose-authentication-boilerplate.git",
+  "author": {
+    "name": "Noriaki Uchiyama",
+    "email": "uchiyama.noriaki@gmail.com",
+    "url": "https://github.com/noriaki"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
