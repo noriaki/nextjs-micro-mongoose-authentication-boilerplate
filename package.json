@@ -6,7 +6,11 @@
     "node": "10.x.x"
   },
   "main": "server/index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "repository": "git@github.com:noriaki/nextjs-micro-mongoose-authentication-boilerplate.git",
   "author": {
     "name": "Noriaki Uchiyama",
@@ -14,6 +18,12 @@
     "url": "https://github.com/noriaki"
   },
   "license": "MIT",
+  "dependencies": {
+    "next": "^6.1.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.5",
     "eslint": "^4.19.1",
