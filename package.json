@@ -7,9 +7,9 @@
   },
   "main": "server/index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "micro-dev --watch server",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production micro"
   },
   "repository": "git@github.com:noriaki/nextjs-micro-mongoose-boilerplate.git",
   "author": {
