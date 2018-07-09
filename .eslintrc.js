@@ -28,6 +28,7 @@ module.exports = {
       functions: 'never',
     }],
     'no-debugger': 'warn',
+    'no-else-return': ['error', { allowElseIf: true }],
     'no-use-before-define': 'off',
     'no-confusing-arrow': ['error', { allowParens: true }],
     'function-paren-newline': 'off',
