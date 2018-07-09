@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-micro-mongoose-authentication-boilerplate",
+  "name": "nextjs-micro-mongoose-boilerplate",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -11,7 +11,7 @@
     "build": "next build",
     "start": "next start"
   },
-  "repository": "git@github.com:noriaki/nextjs-micro-mongoose-authentication-boilerplate.git",
+  "repository": "git@github.com:noriaki/nextjs-micro-mongoose-boilerplate.git",
   "author": {
     "name": "Noriaki Uchiyama",
     "email": "uchiyama.noriaki@gmail.com",

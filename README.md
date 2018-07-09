@@ -1,1 +1,1 @@
-# nextjs-micro-mongoose-authentication-boilerplate
+# nextjs-micro-mongoose-boilerplate
