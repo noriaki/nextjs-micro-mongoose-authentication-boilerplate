@@ -36,6 +36,6 @@ module.exports = setup(router(
   get('/todos/:id', todoRouters.show),
   put('/todos/:id', todoRouters.update),
   patch('/todos/:id', todoRouters.update),
-  del('/todos/:id', todoRouters.destory),
+  del('/todos/:id', todoRouters.destroy),
   get('/*', nextJsRouter)
 ));

@@ -42,7 +42,7 @@ const update = async (req, res) => {
   return send(res, 204, null);
 };
 
-const destory = async (req, res) => {
+const destroy = async (req, res) => {
   setApiHeaders(res);
   const todo = await Todo.findByIdAndRemove(req.params.id);
   if (todo === null) {
@@ -58,5 +58,5 @@ module.exports = {
   create,
   show,
   update,
-  destory,
+  destroy,
 };
