@@ -2,6 +2,7 @@ const { parse } = require('url');
 const next = require('next');
 const { get, router } = require('microrouter');
 
+const db = require('./db');
 const helloRouter = require('./routes/hello');
 
 const dev = process.env.NODE_ENV !== 'production';
@@ -16,6 +17,7 @@ const nextJsRouter = (req, res) => {
 
 const setup = async (handler) => {
   await app.prepare();
+  await db.connect();
   return handler;
 };
 
