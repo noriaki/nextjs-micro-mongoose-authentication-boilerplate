@@ -1,9 +1,17 @@
 const { parse } = require('url');
 const next = require('next');
-const { get, router } = require('microrouter');
+const {
+  get,
+  post,
+  put,
+  patch,
+  del,
+  router,
+} = require('microrouter');
 
 const db = require('./db');
 const helloRouter = require('./routes/hello');
+const todoRouters = require('./routes/todo');
 
 const dev = process.env.NODE_ENV !== 'production';
 
@@ -23,5 +31,11 @@ const setup = async (handler) => {
 
 module.exports = setup(router(
   get('/hello/:who', helloRouter),
+  get('/todos', todoRouters.list),
+  post('/todos', todoRouters.create),
+  get('/todos/:id', todoRouters.show),
+  put('/todos/:id', todoRouters.update),
+  patch('/todos/:id', todoRouters.update),
+  del('/todos/:id', todoRouters.destory),
   get('/*', nextJsRouter)
 ));
