@@ -4782,7 +4782,7 @@ microrouter-test-server@^1.0.3:
     request-promise "^4.1.1"
     test-listen "^1.0.1"
 
-microrouter@2.2.3, microrouter@^2.2.2:
+microrouter@^2.2.2, microrouter@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/microrouter/-/microrouter-2.2.3.tgz#7ea35cb88b4791d4e513891cbe10c1333daa797a"
   integrity sha512-wdDYeNcsnz8Pe0NJyhAEfuOdS9dV2edy3GhVvibftbIXwnl9yAaS6/kFHK5a7HiP8D1hhmGHPBdbKRhIeE7FOA==
