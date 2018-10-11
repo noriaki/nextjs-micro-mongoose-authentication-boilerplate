@@ -1,6 +1,6 @@
 {
   "extends": [
-    "configbase",
+    "config:base",
     ":pinAllExceptPeerDependencies",
     ":timezone(Asia/Tokyo)",
     ":automergePatch"
