@@ -1,8 +1,8 @@
 {
   "extends": [
-    "config:base",
+    "configbase",
+    ":pinAllExceptPeerDependencies",
     ":timezone(Asia/Tokyo)",
     ":automergePatch"
-  ],
-  "schedule": "before 8am on Monday"
+  ]
 }
