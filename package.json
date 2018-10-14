@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "micro": "9.3.2",
+    "micro": "9.3.3",
     "microrouter": "2.2.3",
     "mongoose": "5.2.2",
     "next": "6.1.1",
