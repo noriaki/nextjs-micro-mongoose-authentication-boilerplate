@@ -22,7 +22,7 @@
   "dependencies": {
     "micro": "9.3.3",
     "microrouter": "2.2.3",
-    "mongoose": "5.2.18",
+    "mongoose": "5.7.3",
     "next": "6.1.2",
     "prop-types": "15.6.2",
     "react": "16.4.2",
